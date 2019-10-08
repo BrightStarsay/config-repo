@@ -6,6 +6,12 @@ spring:
         service-id: config-server
       name: order-service
       profile: dev
+      
+  rabbitmq:
+    host: 192.168.157.130
+    port: 5672
+    username: admin
+    password: admin
     
 #server:#  port: 8201
   
